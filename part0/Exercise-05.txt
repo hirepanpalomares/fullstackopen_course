@@ -1,0 +1,12 @@
+First loading of the page
+
+browser->server: HTTP GET (200) https://studies.cs.helsinki.fi/exampleapp/spa
+server-->browser: HTML code
+browser->server: HTTP GET (200) https://studies.cs.helsinki.fi/exampleapp/main.css
+server-->browser: main.css
+browser->server: HTTP GET (200) https://studies.cs.helsinki.fi/exampleapp/spa.js
+server-->browser: spa.js
+browser->server: HTTP GET (200) https://studies.cs.helsinki.fi/exampleapp/data.json
+server-->browser: data.json (json response)
+browser->server: HTTP GET (200)  https://studies.cs.helsinki.fi/favicon.ico
+server-->browser: HTML code 
